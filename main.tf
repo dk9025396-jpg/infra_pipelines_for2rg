@@ -9,15 +9,15 @@ terraform {
 provider "azurerm"{
     features{}
 }
-resource"azurerm_resouce_group" "rg3" {
+resource"azurerm_resource_group" "rg3" {
     name = "mani"
     location ="centralindia"
 }
-resource"azurerm_resouce_group" "rg4" {
+resource"azurerm_resource_group" "rg4" {
     name = "sujju"
     location ="centralindia"
 }
-resource"azurerm_resouce_group" "rg5" {
+resource"azurerm_resource_group" "rg5" {
     name = "raki"
     location ="centralindia"
 }
