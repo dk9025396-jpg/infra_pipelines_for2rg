@@ -17,3 +17,7 @@ resource"azurerm_resouce_group" "rg4" {
     name = "sujju"
     location ="centralindia"
 }
+resource"azurerm_resouce_group" "rg5" {
+    name = "raki"
+    location ="centralindia"
+}
